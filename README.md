@@ -21,7 +21,9 @@
 ## Запуск и работа с ботом
 
 > Установите зависимости 'pip install pyTelegramBotAPI, sqlite3, datetime, InlineKeyboardMarkup, InlineKeyboardButton'
+
 > Запустите logic а потом main
+
 > команды /start- для запуска и /help - для подробностей <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/926dd037-5ab3-49a8-b156-af93a40d136a" />
 > команда /question и как с ней работать <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6048d0d0-eaab-41f2-9d41-ae955ee7bf5c" /> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5b74484c-23c6-4819-b051-222e69dea568" />
 
