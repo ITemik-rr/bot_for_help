@@ -1,10 +1,11 @@
 
+
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import *
 from logic import *
 import sqlite3
-import time
+
 from datetime import date
 
 bot = telebot.TeleBot(TOKEN)
@@ -21,7 +22,8 @@ QUESTIONS = {
 
 def build_markup(message, prefix):
     bot.send_chat_action(message.chat.id, 'typing')
-    time.sleep(2)
+
+
 
     markup = InlineKeyboardMarkup()
 
@@ -164,4 +166,7 @@ def save_user_problem(message, user_id):
 if __name__ == '__main__':
     manager = DB_Manager(DATABASE)
     manager.create_database()
+    manager.create_table()
+    manager.save_answers()
+    bot.polling(none_stop=Tru
     manager.create_table()
