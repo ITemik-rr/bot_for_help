@@ -22,7 +22,7 @@
 
 > Установите зависимости 'pip install pyTelegramBotAPI, sqlite3, datetime, InlineKeyboardMarkup, InlineKeyboardButton'
 
-> Запустите logic а потом main
+> Запустите main
 
 > команды /start- для запуска и /help - для подробностей <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/926dd037-5ab3-49a8-b156-af93a40d136a" />
 
